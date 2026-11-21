@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bu Adamla Evliyim — Resmi Web Sitesi</title>
+    <style>
+        :root {
+            --primary: #e63946;
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --text: #1d3557;
+            --muted: #457b9d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            background: var(--card);
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        p.tagline {
+            font-size: 1.15rem;
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+        .badge {
+            display: inline-block;
+            background: #ffe3e3;
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .btn {
+            display: block;
+            padding: 14px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.15s ease, background 0.15s ease;
+        }
+        .btn-yt {
+            background: #ff0000;
+            color: white;
+        }
+        .btn-ig {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            color: white;
+        }
+        .btn-tt {
+            background: #000000;
+            color: white;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.95;
+        }
+        footer {
+            margin-top: 32px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">🛋️ Günlük Animasyon Sitcom</span>
+        <h1>Bu Adamla Evliyim</h1>
+        <p class="tagline">Her gün yeni bir sabır testi. Her akşam 20:30'da yeni bölüm!</p>
+
+        <div class="links">
+            <a href="https://www.youtube.com/@buadamlaevliyim" class="btn btn-yt" target="_blank" rel="noopener">📺 YouTube Shorts</a>
+            <a href="https://www.instagram.com/buadamlaevliyim/" class="btn btn-ig" target="_blank" rel="noopener">📸 Instagram Reels</a>
+            <a href="https://www.tiktok.com/@buadamlaevliyim" class="btn btn-tt" target="_blank" rel="noopener">🎵 TikTok</a>
+        </div>
+
+        <footer>
+            © 2026 Bu Adamla Evliyim. Tüm hakları saklıdır.
+        </footer>
+    </div>
+</body>
+</html>
